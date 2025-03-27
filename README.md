@@ -1,7 +1,7 @@
-# C SSH Server 🖥️🔒
+# C++ SSH Server 🖥️🔒
 
 ## Overview
-This project is a custom SSH server written in C, designed to handle multiple clients simultaneously and execute shell commands remotely. It uses `libsodium` for encryption while maintaining compatibility with OpenSSL standards.
+This project is a custom SSH server written in C++, designed to handle multiple clients simultaneously and execute shell commands remotely. It uses `libsodium` for encryption while maintaining compatibility with OpenSSL standards.
 
 ## Features ✨
 - **Multi-client support**: Handles multiple client connections concurrently. 👥
