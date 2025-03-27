@@ -133,7 +133,7 @@ bool checkCredentials(const std::string &username, const std::string &password)
         return false;
     }
 
-    if (mysql_real_connect(conn, "localhost", "tzutzu", "Desenele5891!", "server", 0, NULL, 0) == NULL)
+    if (mysql_real_connect(conn, "localhost", "username", "password", "server", 0, NULL, 0) == NULL)
     {
         std::cerr << "mysql_real_connect() failed: " << mysql_error(conn) << std::endl;
         mysql_close(conn);
